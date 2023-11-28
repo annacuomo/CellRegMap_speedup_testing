@@ -5,7 +5,7 @@ from numpy.random import RandomState
 
 from cellregmap import run_association, run_interaction, estimate_betas
 
-random = RandomState(1)
+random = RandomState(10)
 n = 30                               # number of samples (cells)
 p = 5                                # number of individuals
 k = 4                                # number of contexts
@@ -28,5 +28,5 @@ betas = estimate_betas(y=y, G=g, W=W, E=C, hK=hK)
 beta_G = betas[0]                         # persistent effect (scalar)
 beta_GxC = betas[1][0]                    # GxC effects (vector)
 
-print(f'persistent genetic effect (betaG): {betaG}')
-print(f'cell-level effect sizes due to GxC (betaGxC): {betaGxC}')
+print(f'persistent genetic effect (betaG): {beta_G}')
+print(f'cell-level effect sizes due to GxC (betaGxC): {beta_GxC}')
