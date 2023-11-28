@@ -17,3 +17,11 @@ g = 1.0 * (random.rand(n, 1) < 0.2)  # SNP vector
 
 ## Association test
 pv0 = run_association(y=y, G=g, W=W, E=C, hK=hK)[0]
+
+## Interaction test
+pv1 = run_interaction(y=y, G=g, W=W, E=C, hK=hK)[0]
+
+## Estimate betas
+betas = estimate_betas(y=y, G=g, W=W, E=C, hK=hK)
+betas_G = betas[0]
+betas_GxC = betas[1][0]
