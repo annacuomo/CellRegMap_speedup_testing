@@ -7,3 +7,13 @@
   * within python (better structures, better python)
   * different languages (e.g. C), different libraries
   * dependency 
+
+
+# Quick start
+
+Using python3 between 3.7 and 3.9:
+
+```
+git clone ...
+python3 -m pip install .
+```
