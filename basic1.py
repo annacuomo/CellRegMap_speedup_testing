@@ -23,5 +23,3 @@ pv1 = run_interaction(y=y, G=g, W=W, E=C, hK=hK)[0]
 
 ## Estimate betas
 betas = estimate_betas(y=y, G=g, W=W, E=C, hK=hK)
-betas_G = betas[0]
-betas_GxC = betas[1][0]
