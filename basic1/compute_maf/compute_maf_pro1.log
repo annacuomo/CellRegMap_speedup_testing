@@ -1,0 +1,27 @@
+         23 function calls in 0.000 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 /mnt/c/Users/zyptd/Downloads/CellRegMap_speedup_testing/basic1/../../CellRegMap/cellregmap/_cellregmap.py:593(compute_maf)
+        1    0.000    0.000    0.000    0.000 /home/zyp/.local/lib/python3.9/site-packages/numpy/lib/nanfunctions.py:623(nansum)
+        1    0.000    0.000    0.000    0.000 /home/zyp/.local/lib/python3.9/site-packages/numpy/lib/nanfunctions.py:68(_replace_nan)
+        1    0.000    0.000    0.000    0.000 /home/zyp/.local/lib/python3.9/site-packages/numpy/core/fromnumeric.py:2177(sum)
+        2    0.000    0.000    0.000    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+        1    0.000    0.000    0.000    0.000 {method 'sum' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 /home/zyp/.local/lib/python3.9/site-packages/numpy/core/fromnumeric.py:71(_wrapreduction)
+        1    0.000    0.000    0.000    0.000 /home/zyp/.local/lib/python3.9/site-packages/numpy/core/_methods.py:47(_sum)
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.array}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        1    0.000    0.000    0.000    0.000 /home/zyp/.local/lib/python3.9/site-packages/numpy/core/fromnumeric.py:72(<dictcomp>)
+        1    0.000    0.000    0.000    0.000 /home/zyp/.local/lib/python3.9/site-packages/numpy/lib/nanfunctions.py:618(_nansum_dispatcher)
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.asanyarray}
+        1    0.000    0.000    0.000    0.000 /home/zyp/.local/lib/python3.9/site-packages/numpy/core/multiarray.py:1080(copyto)
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        1    0.000    0.000    0.000    0.000 /home/zyp/.local/lib/python3.9/site-packages/numpy/core/fromnumeric.py:2172(_sum_dispatcher)
+
+
+

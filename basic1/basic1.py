@@ -2,6 +2,17 @@
 
 from numpy import ones
 from numpy.random import RandomState
+import sys
+import os
+
+# Get the directory of the current script
+current_script_path = os.path.dirname(os.path.abspath(__file__))
+
+# Get the path to the 'cellremap' directory
+cellremap_speed_path = os.path.join(current_script_path, '..', '..', 'CellRegMap')
+
+# Add the 'cellremap_Speed' directory to the Python path
+sys.path.append(cellremap_speed_path)
 
 from cellregmap import run_association, run_interaction, estimate_betas
 
