@@ -90,8 +90,5 @@ K = hK @ hK.T
 plt.matshow(K)
 ```
 
-
-
-
-### Gene expression
+Then follow e.g., https://github.com/annacuomo/CellRegMap_analyses/blob/main/endodiff/usage/notebooks/run_association_chr19_test.ipynb
 
