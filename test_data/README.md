@@ -3,12 +3,14 @@
 * ```seed_1_100_nindep_100_ncell_100_lambda_2_tauIntraSample_0.5_Poisson.txt``` contains a few different pieces of information:
   * the first column is the individual ID -- based on this you can construct a block diagonal kinship file following [these instructions](https://github.com/annacuomo/CellRegMap_analyses/blob/main/endodiff/preprocessing/block_diagonal_K.ipynb)
   * columns 2-5 include covariates, or contexts -- use these as your context file
-  * the remaining columns represent the simulated single-cell expression file for 100 genes
+  * the remaining columns represent the simulated single-cell expression file for 100 genes -- this is your phenotype file
 * ```n.indep_100_n.cell_1.bed```, ```n.indep_100_n.cell_1.bim``` and ```n.indep_100_n.cell_1.fam``` are simulated genotype files, in the [plink](https://en.wikipedia.org/wiki/PLINK_(genetic_tool-set)) format
+
+See some more detail on how to load these files below
 
 ## How to load the data
 
-### Genotypes
+### Genotypes (G)
 
 Open genotype files using the ```pandas_plink``` module:
 
@@ -29,19 +31,19 @@ txt_file = "seed_1_100_nindep_100_ncell_100_lambda_2_tauIntraSample_0.5_Poisson.
 txt_df = pd.read_csv(txt_file, sep="\t")
 ```
 
-### Gene expression
+### Gene expression (y)
 
 ```python
 pheno_df = txt_df.iloc[:,5:]
 ```
 
-### Contexts
+### Contexts (C)
 
 ```python
 contexts_df = txt_df[["X1","X2","pf1","pf2"]]
 ```
 
-#### Kinship
+#### Kinship (hK)
 
 First, extract cells and donor ids:
 
