@@ -1,0 +1,488 @@
+         7391740359 function calls (7390750330 primitive calls) in 13105.191 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.014    0.014 13105.191 13105.191 /Users/yupeng/Desktop/Internship/Garvan/CellRegMap/cellregmap/_cellregmap.py:471(run_association)
+        1   21.717   21.717 13105.177 13105.177 /Users/yupeng/Desktop/Internship/Garvan/CellRegMap/cellregmap/_cellregmap.py:246(scan_association)
+   990011    2.944    0.000 10340.262    0.010 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:259(fit)
+   990011    1.900    0.000 10204.822    0.010 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_function.py:66(_maximize_scalar)
+   990011   14.333    0.000 10202.922    0.010 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_function.py:23(_minimize_scalar)
+   990011    3.132    0.000 10089.844    0.010 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_optimize.py:11(minimize)
+ 54450605   41.777    0.000 9855.381    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_optimize.py:50(func)
+ 54450605   89.681    0.000 9813.604    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_function.py:45(func)
+ 54450605   90.415    0.000 8925.628    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:292(value)
+ 55440616  195.285    0.000 5288.226    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:540(_update_beta)
+   990011   50.453    0.000 5069.381    0.005 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_bracket.py:8(bracket)
+   990011  117.593    0.000 5017.330    0.005 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_brent.py:9(brent)
+221762464 3058.616    0.000 3218.361    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_b.py:69(dot)
+ 55440616   87.941    0.000 2885.045    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/_util/solve.py:54(rsolve)
+ 55440616  280.096    0.000 2751.096    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy_sugar/linalg/solve.py:140(rsolve)
+ 54550720   11.635    0.000 2513.296    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:1199(update)
+   990001    1.333    0.000 2503.864    0.003 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:1161(__iter__)
+   100116    0.297    0.000 2501.098    0.025 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:1326(refresh)
+   100117    0.329    0.000 2499.705    0.025 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:1465(display)
+   100117    0.252    0.000 2480.783    0.025 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:460(print_status)
+   100117    0.208    0.000 2472.756    0.025 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:454(fp_write)
+   200236    0.111    0.000 2472.548    0.012 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:193(inner)
+   100119 2472.378    0.025 2472.378    0.025 {method 'write' of '_io.TextIOWrapper' objects}
+ 55440616  109.581    0.000 2276.204    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:549(_update_scale)
+ 55440616 1561.996    0.000 2168.397    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:2191(lstsq)
+ 55440616  289.789    0.000 2114.897    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:533(_optimal_scale_using_optimal_beta)
+110881232  318.198    0.000 1850.104    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:576(_yTBtX)
+ 55440618   73.178    0.000 1427.285    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:324(lml)
+ 55440618  204.571    0.000 1339.215    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:489(_lml_optimal_scale)
+ 55440616  222.103    0.000 1323.676    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:580(_tXTBtX)
+ 55440618  412.780    0.000 1049.931    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:561(_logdetD)
+63360704/62370693  130.618    0.000  830.767    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_types.py:108(__setattr__)
+ 55440616  147.316    0.000  765.603    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:572(_yTBy)
+ 56430627  100.654    0.000  644.502    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_ndl.py:170(itemset)
+111871248  349.449    0.000  643.316    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:375(delta)
+ 56430627   73.933    0.000  525.584    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_ndl.py:155(__notify)
+573216377  288.967    0.000  444.100    0.000 <frozen importlib._bootstrap>:1033(_handle_fromlist)
+ 56430627   71.469    0.000  374.568    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:459(_delta_update)
+ 55740967  264.530    0.000  277.886    0.000 {built-in method builtins.sum}
+ 55440618   38.857    0.000  273.702    0.000 {method 'sum' of 'numpy.ndarray' objects}
+ 55440618   22.461    0.000  234.845    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/_methods.py:47(_sum)
+ 57420642  221.498    0.000  221.498    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+   990011   16.961    0.000  213.226    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:98(__init__)
+ 55440627  109.427    0.000  211.686    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:159(_commonType)
+166321852   59.655    0.000  129.885    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:524(_df)
+110881243   61.408    0.000   93.213    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:135(_makearray)
+166321882   92.568    0.000   92.568    0.000 {method 'astype' of 'numpy.ndarray' objects}
+111871248   87.268    0.000   87.268    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_types.py:120(__getattr__)
+581336714   82.289    0.000   82.289    0.000 {built-in method builtins.hasattr}
+   990011    3.775    0.000   81.883    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/_util/_svd.py:19(__init__)
+ 56430627   77.082    0.000   77.082    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/weakref.py:69(__call__)
+581336751   75.449    0.000   75.449    0.000 {built-in method builtins.isinstance}
+166321852   46.938    0.000   70.230    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:310(nsamples)
+166321870   47.782    0.000   69.348    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:153(_realType)
+139791796   68.750    0.000   68.750    0.000 {built-in method builtins.max}
+   990011   16.427    0.000   65.519    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy_sugar/linalg/svd.py:4(economic_svd)
+ 56430633   65.227    0.000   65.227    0.000 {built-in method numpy.array}
+166321870   37.785    0.000   54.341    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:140(isComplexType)
+233642631/233642630   50.611    0.000   50.611    0.000 {built-in method numpy.asarray}
+   990011   28.086    0.000   48.057    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/linalg/_decomp_svd.py:13(svd)
+   990012    6.502    0.000   47.556    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:953(__init__)
+141571702   40.661    0.000   40.661    0.000 {built-in method builtins.min}
+ 55440616   36.505    0.000   36.505    0.000 {method 'squeeze' of 'numpy.ndarray' objects}
+221762464   33.405    0.000   33.405    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/_util/_svd.py:44(US)
+233843128/233843126   32.278    0.000   32.278    0.000 {built-in method builtins.len}
+277203113   31.078    0.000   31.078    0.000 {built-in method builtins.issubclass}
+ 55440627   30.369    0.000   30.369    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:130(get_linalg_error_extobj)
+   990011   11.045    0.000   29.873    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_types.py:26(__init__)
+111871248   28.454    0.000   28.454    0.000 {built-in method math.exp}
+ 24750275   10.912    0.000   27.112    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_bracket.py:134(_ensure_boundary)
+  1980022    6.071    0.000   24.293    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy_sugar/_array.py:50(is_all_finite)
+ 56430627   23.233    0.000   23.233    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_b.py:59(set_variances)
+169291920   22.688    0.000   22.688    0.000 {method 'get' of 'dict' objects}
+   990011    4.739    0.000   22.428    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:392(delta)
+201072341   22.338    0.000   22.338    0.000 {built-in method builtins.abs}
+110881254   21.340    0.000   21.340    0.000 {method '__array_prepare__' of 'numpy.ndarray' objects}
+ 55440616   21.261    0.000   21.261    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:197(_assert_2d)
+   990012    4.366    0.000   20.783    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:666(__new__)
+116821343   20.308    0.000   20.308    0.000 {built-in method builtins.getattr}
+   300351    0.239    0.000   18.643    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:377(disp_len)
+   100117    0.574    0.000   18.536    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:1151(__str__)
+ 56430627   18.265    0.000   18.265    0.000 {function ndl.itemset at 0x15aa3f8b0}
+   300351    0.312    0.000   18.019    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:373(_text_width)
+  1980022    2.933    0.000   17.620    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/fromnumeric.py:2177(sum)
+   100117    2.449    0.000   17.301    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:467(format_meter)
+   990012   11.173    0.000   16.555    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:212(__init__)
+  1980024    3.663    0.000   14.080    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/fromnumeric.py:71(_wrapreduction)
+ 48511589    9.137    0.000   13.356    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:374(<genexpr>)
+   990012    3.502    0.000   13.246    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:682(_get_free_pos)
+  1980026    1.332    0.000   11.015    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:110(__enter__)
+   990011    7.167    0.000   10.974    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy_sugar/linalg/dot.py:29(ddot)
+   990011    3.416    0.000   10.601    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_function.py:170(__init__)
+   990011   10.126    0.000   10.493    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_b.py:28(__init__)
+  2080142    2.758    0.000   10.352    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:102(acquire)
+ 55440616   10.163    0.000   10.163    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:2187(_lstsq_dispatcher)
+ 55440618   10.022    0.000   10.022    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:478(_logdetH)
+   990011    6.087    0.000    9.869    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/linalg/lapack.py:979(_compute_lwork)
+   990012    1.805    0.000    8.777    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:685(<setcomp>)
+   990011    1.682    0.000    8.493    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_ndl.py:112(__new__)
+ 55440621    8.237    0.000    8.237    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:401(scale)
+   100117    0.107    0.000    8.110    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:385(disp_trim)
+   990011    2.355    0.000    6.975    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_variables.py:22(select)
+ 24750275    6.955    0.000    6.955    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_bracket.py:130(_boundary_inside)
+  1980026    0.926    0.000    6.786    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:113(__exit__)
+  2080142    6.578    0.000    6.578    0.000 {method 'acquire' of '_multiprocessing.SemLock' objects}
+   990011    5.265    0.000    6.522    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/_lib/_util.py:194(_asarray_validated)
+  2970025    2.906    0.000    6.472    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_weakrefset.py:59(__iter__)
+   990011    3.286    0.000    6.304    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_bracket.py:142(_initialize_interval)
+  2080142    2.713    0.000    6.288    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:106(release)
+   990011    0.806    0.000    6.158    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_types.py:97(listen)
+   990011    1.171    0.000    5.353    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_ndl.py:152(talk_to)
+   990011    1.157    0.000    4.912    0.000 {method 'view' of 'numpy.ndarray' objects}
+   990011    4.005    0.000    4.870    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/functools.py:949(__get__)
+   990012    0.784    0.000    4.705    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_weakrefset.py:107(remove)
+  1980022    2.422    0.000    4.275    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_variables.py:29(names)
+ 48211238    4.219    0.000    4.219    0.000 {built-in method unicodedata.east_asian_width}
+  1980025    1.520    0.000    4.143    0.000 {method 'remove' of 'set' objects}
+   990011    1.413    0.000    3.977    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_ndl.py:174(_create_callback)
+   990011    1.764    0.000    3.903    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_function.py:13(__init__)
+   990011    1.019    0.000    3.755    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_ndl.py:122(__array_finalize__)
+  1980022    3.145    0.000    3.452    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_ndl.py:131(__setattr__)
+   990011    2.433    0.000    3.283    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_variables.py:60(merge_variables)
+   990011    2.288    0.000    3.125    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/linalg/blas.py:384(getter)
+   990012    1.329    0.000    2.989    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_weakrefset.py:82(add)
+  2080142    2.970    0.000    2.970    0.000 {method 'release' of '_multiprocessing.SemLock' objects}
+   990012    2.303    0.000    2.642    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/functools.py:392(__get__)
+   990011    2.028    0.000    2.564    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/weakref.py:47(__new__)
+   990011    2.548    0.000    2.548    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/linalg/lapack.py:1014(_check_work_float)
+   990011    1.692    0.000    2.153    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/shape_base.py:81(atleast_2d)
+   990011    0.407    0.000    2.126    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/lib/function_base.py:873(copy)
+   990012    0.817    0.000    2.126    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:124(__eq__)
+   990011    0.519    0.000    2.060    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_types.py:41(bounds)
+  2970033    2.033    0.000    2.033    0.000 {built-in method builtins.sorted}
+  1980025    1.249    0.000    1.922    0.000 {method 'add' of 'set' objects}
+   700816    1.382    0.000    1.876    0.000 {method 'format' of 'str' objects}
+   990013    1.134    0.000    1.761    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_weakrefset.py:27(__exit__)
+  2970036    1.662    0.000    1.662    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:151(wrapper_setattr)
+  1980023    1.623    0.000    1.623    0.000 {built-in method numpy.zeros}
+   990012    0.688    0.000    1.616    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:155(__init__)
+  1980024    1.027    0.000    1.601    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:186(disable_on_exception)
+   990011    1.131    0.000    1.409    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_function.py:225(_isfixed)
+  1980022    1.111    0.000    1.343    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_bracket.py:138(_tol)
+  1980024    0.810    0.000    1.308    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:1154(_comparable)
+   990013    0.949    0.000    1.211    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_weakrefset.py:21(__enter__)
+   990011    1.026    0.000    1.209    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_variables.py:26(<listcomp>)
+   990012    0.979    0.000    1.187    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/_monitor.py:94(report)
+  1980024    0.633    0.000    1.170    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:1158(__hash__)
+  1980024    1.039    0.000    1.039    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/fromnumeric.py:72(<dictcomp>)
+  2080142    1.016    0.000    1.016    0.000 {method 'acquire' of '_thread.RLock' objects}
+  1980035    0.900    0.000    0.900    0.000 {built-in method __new__ of type object at 0x10e44ba38}
+   200233    0.277    0.000    0.895    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:400(format_interval)
+   200234    0.447    0.000    0.685    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:272(_is_ascii)
+   600677    0.677    0.000    0.677    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:231(__call__)
+   100117    0.485    0.000    0.662    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:1447(format_dict)
+   990011    0.385    0.000    0.644    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/sparse/_base.py:1461(issparse)
+   990012    0.368    0.000    0.624    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:763(get_lock)
+  2080142    0.606    0.000    0.606    0.000 {method 'release' of '_thread.RLock' objects}
+   990013    0.594    0.000    0.594    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_weakrefset.py:17(__init__)
+  3960050    0.593    0.000    0.593    0.000 {method 'items' of 'dict' objects}
+  2970587    0.590    0.000    0.590    0.000 {method 'append' of 'list' objects}
+  1980024    0.574    0.000    0.574    0.000 {built-in method _weakref.proxy}
+  1980025    0.537    0.000    0.537    0.000 {built-in method builtins.id}
+   990013    0.533    0.000    0.533    0.000 {method 'ravel' of 'numpy.ndarray' objects}
+   990011    0.346    0.000    0.477    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/ma/core.py:6485(isMaskedArray)
+   100116    0.470    0.000    0.470    0.000 {built-in method now}
+  1980022    0.461    0.000    0.461    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_types.py:78(isfixed)
+   989683    0.332    0.000    0.454    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:1148(__del__)
+   100117    0.382    0.000    0.445    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:186(__format__)
+  1979695    0.434    0.000    0.434    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:1266(close)
+  1980022    0.412    0.000    0.412    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_types.py:37(bounds)
+   990013    0.405    0.000    0.405    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_weakrefset.py:53(_commit_removals)
+   990012    0.389    0.000    0.389    0.000 {method 'difference' of 'set' objects}
+   300351    0.385    0.000    0.385    0.000 {method 'sub' of 're.Pattern' objects}
+  1980022    0.375    0.000    0.375    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/fromnumeric.py:2172(_sum_dispatcher)
+   990011    0.374    0.000    0.374    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_variables.py:27(<dictcomp>)
+   990011    0.362    0.000    0.362    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_bracket.py:119(_sort)
+   990011    0.362    0.000    0.362    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_bracket.py:143(<listcomp>)
+  1980025    0.340    0.000    0.340    0.000 {built-in method builtins.iter}
+  1980022    0.336    0.000    0.336    0.000 {staticmethod object at 0x13bbe0a90}
+   990011    0.309    0.000    0.309    0.000 {method '__exit__' of '_thread.RLock' objects}
+   990011    0.291    0.000    0.291    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_bracket.py:126(_boundary_equal)
+   990011    0.270    0.000    0.270    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:465(_logdetXX)
+   100117    0.204    0.000    0.244    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:153(__init__)
+   990011    0.237    0.000    0.237    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/multiarray.py:153(concatenate)
+        1    0.002    0.002    0.232    0.232 /Users/yupeng/Desktop/Internship/Garvan/CellRegMap/cellregmap/_cellregmap.py:443(lrt_pvalues)
+   990011    0.226    0.000    0.226    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/_util/_svd.py:58(rank)
+   990011    0.221    0.000    0.221    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/linalg/_misc.py:181(_datacopied)
+   989682    0.215    0.000    0.215    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/weakref.py:54(_cb)
+  2102469    0.212    0.000    0.212    0.000 {built-in method builtins.ord}
+   990012    0.208    0.000    0.208    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py:529(is_set)
+   990011    0.203    0.000    0.203    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/lib/function_base.py:869(_copy_dispatcher)
+        1    0.001    0.001    0.192    0.192 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/stats/_distn_infrastructure.py:493(sf)
+        1    0.009    0.009    0.191    0.191 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/stats/_distn_infrastructure.py:2123(sf)
+        1    0.176    0.176    0.176    0.176 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/stats/_continuous_distns.py:1489(_sf)
+   990011    0.165    0.000    0.165    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/shape_base.py:77(_atleast_2d_dispatcher)
+   990015    0.157    0.000    0.157    0.000 {built-in method numpy.asanyarray}
+   414028    0.129    0.000    0.129    0.000 {built-in method time.time}
+   500583    0.109    0.000    0.109    0.000 {built-in method builtins.divmod}
+   100117    0.062    0.000    0.062    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:107(__init__)
+   100117    0.059    0.000    0.059    0.000 {method 'update' of 'dict' objects}
+   100119    0.059    0.000    0.059    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+   100117    0.049    0.000    0.049    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:111(__format__)
+   100117    0.040    0.000    0.040    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:167(colour)
+   100117    0.025    0.000    0.025    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:163(colour)
+        2    0.000    0.000    0.004    0.002 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/fromnumeric.py:2100(clip)
+        2    0.000    0.000    0.004    0.002 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/fromnumeric.py:53(_wrapfunc)
+        2    0.000    0.000    0.004    0.002 {method 'clip' of 'numpy.ndarray' objects}
+        2    0.004    0.002    0.004    0.002 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/_methods.py:90(_clip)
+        3    0.000    0.000    0.003    0.001 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/lib/function_base.py:1917(place)
+        3    0.003    0.001    0.003    0.001 {built-in method numpy.core._multiarray_umath._place}
+        1    0.000    0.000    0.001    0.001 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/stats/_distn_infrastructure.py:848(__call__)
+        1    0.000    0.000    0.001    0.001 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/stats/_distn_infrastructure.py:828(freeze)
+        1    0.000    0.000    0.001    0.001 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/stats/_distn_infrastructure.py:458(__init__)
+      3/1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:1002(_find_and_load)
+        1    0.000    0.000    0.001    0.001 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/stats/_distn_infrastructure.py:1797(__init__)
+      3/1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:967(_find_and_load_unlocked)
+        1    0.000    0.000    0.001    0.001 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/stats/_distn_infrastructure.py:559(argsreduce)
+      3/1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:659(_load_unlocked)
+      3/1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:844(exec_module)
+      4/2    0.000    0.000    0.001    0.000 {built-in method builtins.exec}
+        1    0.000    0.000    0.001    0.001 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/stats/_distn_infrastructure.py:604(<listcomp>)
+        1    0.001    0.001    0.001    0.001 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/stats/_distn_infrastructure.py:980(_open_support_mask)
+        1    0.000    0.000    0.001    0.001 /Users/yupeng/Desktop/Internship/Garvan/CellRegMap/cellregmap/_cellregmap.py:63(__init__)
+      3/1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:220(_call_with_frames_removed)
+        1    0.000    0.000    0.001    0.001 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/__init__.py:1(<module>)
+        1    0.000    0.000    0.001    0.001 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/stats/_distn_infrastructure.py:779(_construct_doc)
+        2    0.000    0.000    0.001    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/_lib/doccer.py:13(docformat)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:901(_find_spec)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1406(find_spec)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1374(_get_spec)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy_sugar/linalg/qs.py:39(economic_qs_linear)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:916(get_code)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy_sugar/linalg/qs.py:74(_economic_qs_linear_noq1)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1505(find_spec)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:1499(svd)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/stats/_distn_infrastructure.py:698(_construct_argparser)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1036(get_data)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/re.py:188(match)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/re.py:289(_compile)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/stats/_distn_infrastructure.py:1857(_attach_methods)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_compile.py:759(compile)
+       17    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:135(_path_stat)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/stats/_distn_infrastructure.py:684(_attach_argparser_methods)
+       17    0.000    0.000    0.000    0.000 {built-in method posix.stat}
+        3    0.000    0.000    0.000    0.000 {built-in method io.open_code}
+        2    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/_lib/doccer.py:180(indentcount_lines)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/stats/_distn_infrastructure.py:632(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/_lib/_util.py:296(getfullargspec_no_self)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:558(module_from_spec)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py:937(parse)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:486(_init_module_attrs)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_compile.py:598(_code)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/inspect.py:3128(signature)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py:435(_parse_sub)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/inspect.py:2876(from_callable)
+      2/1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/inspect.py:2244(_signature_from_callable)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py:493(_parse)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:361(cache_from_source)
+       64    0.000    0.000    0.000    0.000 {method 'splitlines' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1556(_fill_cache)
+       64    0.000    0.000    0.000    0.000 {method 'expandtabs' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/lib/stride_tricks.py:480(broadcast_arrays)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/fromnumeric.py:2421(all)
+      2/1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_compile.py:71(_compile)
+       34    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:121(_path_join)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:645(_compile_bytecode)
+        1    0.000    0.000    0.000    0.000 {built-in method posix.listdir}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_ndl.py:1(<module>)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:385(cached)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/function_base.py:24(linspace)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:145(_path_is_mode_type)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:491(_get_cached)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.__build_class__}
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:154(_path_isfile)
+        3    0.000    0.000    0.000    0.000 {built-in method marshal.loads}
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1337(_path_importer_cache)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/lib/stride_tricks.py:546(<listcomp>)
+        3    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/lib/stride_tricks.py:340(_broadcast_to)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1324(_path_hooks)
+        2    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_compile.py:276(_optimize_charset)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/fromnumeric.py:2322(any)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/inspect.py:2150(_signature_from_function)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:156(__enter__)
+      105    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+       34    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:123(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:689(_decr_instances)
+        3    0.000    0.000    0.000    0.000 {method 'read' of '_io.BufferedReader' objects}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:332(_screen_shape_linux)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:166(_get_module_lock)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1077(path_stats)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:127(_path_split)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/linalg/lapack.py:881(get_lapack_funcs)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/pandas/core/generic.py:2082(__array__)
+      165    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/linalg/blas.py:326(_get_funcs)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1597(path_hook_for_FileFinder)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1500(_get_spec)
+        2    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/_ufunc_config.py:33(seterr)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_compile.py:536(_compile_info)
+        4    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/lib/function_base.py:2285(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:560(_classify_pyc)
+        1    0.000    0.000    0.000    0.000 <frozen zipimport>:63(__init__)
+       19    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py:254(get)
+        3    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        2    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_compile.py:411(_mk_bitmap)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/_ufunc_config.py:430(__enter__)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/inspect.py:1838(_signature_bound_method)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/stats/_distn_infrastructure.py:941(_argcheck)
+        2    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/inspect.py:2515(__init__)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:79(_unpack_uint32)
+        2    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/inspect.py:2798(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:696(spec_from_file_location)
+        3    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+       25    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py:233(__next)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1466(__init__)
+       20    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:87(acquire)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/shape_base.py:23(atleast_1d)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/pandas/core/frame.py:1030(_values)
+        1    0.000    0.000    0.000    0.000 {built-in method fcntl.ioctl}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:160(__exit__)
+        2    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:235(v0)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/_ufunc_config.py:435(__exit__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:58(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:593(_validate_timestamp_pyc)
+       74    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Desktop/Internship/Garvan/CellRegMap/cellregmap/_cellregmap.py:280(<dictcomp>)
+       32    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:231(_verbose_message)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:112(release)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/lib/stride_tricks.py:416(_broadcast_shape)
+        1    0.000    0.000    0.000    0.000 {method 'flatten' of 'numpy.ndarray' objects}
+       12    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:129(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/enum.py:977(__and__)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/stats/_distn_infrastructure.py:1879(_updated_ctor_param)
+        2    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_compile.py:413(<listcomp>)
+        4    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/enum.py:358(__call__)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:441(status_printer)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:159(_path_isdir)
+      2/1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py:174(getwidth)
+       11    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py:164(__getitem__)
+        2    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:1287(fp_write)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/inspect.py:494(unwrap)
+        2    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/_ufunc_config.py:132(geterr)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/linalg/blas.py:259(find_best_blas_type)
+       19    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+       11    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py:249(match)
+        5    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/inspect.py:2890(replace)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:175(_path_isabs)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:265(_supports_unicode)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:185(cb)
+        2    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py:432(_uniq)
+        6    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:64(_relax_case)
+        2    0.000    0.000    0.000    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:878(__exit__)
+        1    0.000    0.000    0.000    0.000 {built-in method utcfromtimestamp}
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:203(_assert_stacked_2d)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:523(_check_name_wrapper)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:874(__enter__)
+        2    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/pandas/core/generic.py:6189(__getattr__)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:247(v1)
+        2    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_compile.py:249(_compile_charset)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1585(<setcomp>)
+        1    0.000    0.000    0.000    0.000 {method 'match' of 're.Pattern' objects}
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py:224(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:811(find_spec)
+       10    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+       15    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:398(parent)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:35(_new_module)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/lib/stride_tricks.py:538(<listcomp>)
+       15    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:351(__init__)
+        5    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        3    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/lib/function_base.py:348(iterable)
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.arange}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:251(_is_utf)
+        6    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py:286(tell)
+        6    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        2    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/stats/_distn_infrastructure.py:787(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/_lib/_util.py:318(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/pandas/core/dtypes/astype.py:250(astype_is_view)
+        2    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        3    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/inspect.py:2847(<genexpr>)
+        9    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        4    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/enum.py:670(__new__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:736(find_spec)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_compile.py:423(_simple)
+        2    0.000    0.000    0.000    0.000 {built-in method numpy.seterrobj}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1006(__init__)
+        3    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_compile.py:461(_get_literal_prefix)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.all}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_ndl.py:33(ndl)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/_lib/_util.py:164(check_random_state)
+        3    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/lib/function_base.py:1913(_place_dispatcher)
+        4    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py:172(append)
+        4    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py:160(__len__)
+        3    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/lib/stride_tricks.py:542(<genexpr>)
+        8    0.000    0.000    0.000    0.000 {method 'values' of 'mappingproxy' objects}
+        1    0.000    0.000    0.000    0.000 <string>:1(<lambda>)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:152(__init__)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:1495(_svd_dispatcher)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/fromnumeric.py:1980(shape)
+        2    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py:111(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/_lib/_util.py:333(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py:921(fix_flags)
+        2    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_compile.py:595(isstring)
+        1    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        2    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+        6    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.promote_types}
+        3    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:226(__init__)
+        9    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/inspect.py:2577(kind)
+        2    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:138(__getattr__)
+        3    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+        6    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/_lib/_util.py:345(<dictcomp>)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py:76(__init__)
+        3    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/lib/stride_tricks.py:25(_maybe_view_as_subclass)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/fromnumeric.py:3176(ndim)
+        2    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:221(__eq__)
+        9    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_compile.py:492(_get_charset_prefix)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1472(<genexpr>)
+        8    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/inspect.py:2882(parameters)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/inspect.py:514(_is_wrapper)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/pandas/_config/__init__.py:33(using_copy_on_write)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/_lib/_util.py:338(<listcomp>)
+        2    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py:81(groups)
+        2    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/inspect.py:159(isfunction)
+        3    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/stats/_distn_infrastructure.py:953(_get_support)
+        2    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/fromnumeric.py:2096(_clip_dispatcher)
+        2    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        6    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/lib/stride_tricks.py:345(<genexpr>)
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/_lib/_util.py:328(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/_ufunc_config.py:426(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/numeric.py:1855(isscalar)
+        4    0.000    0.000    0.000    0.000 {built-in method numpy.geterrobj}
+        3    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        2    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/_lib/_util.py:323(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/_lib/_util.py:342(<dictcomp>)
+        4    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_ndl.py:6(float64)
+        1    0.000    0.000    0.000    0.000 <string>:2(<module>)
+        3    0.000    0.000    0.000    0.000 {method '__exit__' of 'numpy.nditer' objects}
+        1    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/inspect.py:2565(name)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1031(get_filename)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/fromnumeric.py:1976(_shape_dispatcher)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:841(create_module)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:406(has_location)
+        1    0.000    0.000    0.000    0.000 {method '__contains__' of 'frozenset' objects}
+        2    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_compile.py:453(_get_iscased)
+        1    0.000    0.000    0.000    0.000 {built-in method sys.getrecursionlimit}
+        2    0.000    0.000    0.000    0.000 <string>:2(_parse_args)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_testit.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/inspect.py:2573(annotation)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:281(_screen_shape_wrapper)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/sre_parse.py:168(__setitem__)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/typing.py:1340(cast)
+        2    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/inspect.py:2569(default)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/fromnumeric.py:2317(_any_dispatcher)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/function_base.py:19(_linspace_dispatcher)
+        1    0.000    0.000    0.000    0.000 {built-in method _operator.index}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Desktop/Internship/Garvan/CellRegMap/cellregmap/_cellregmap.py:79(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/shape_base.py:19(_atleast_1d_dispatcher)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/fromnumeric.py:3172(_ndim_dispatcher)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/multiarray.py:669(result_type)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/lib/stride_tricks.py:476(_broadcast_arrays_dispatcher)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/fromnumeric.py:2416(_all_dispatcher)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:1302(<lambda>)
+
+
+
