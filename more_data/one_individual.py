@@ -50,8 +50,6 @@ plt.matshow(K)
 C = xr.DataArray(contexts_df_a1.values, dims=('cell', 'pc'), coords={'cell': contexts_df_a1.index.values, 'pc': contexts_df_a1.columns.values})
 C = C.sel(cell=smf_df.index.values)
 C = quantile_gaussianize(C)
-C.values[:,0:10].shape
-C.values[:,0:10]
 
 y = xr.DataArray(pheno_df_a1.values, dims=["cell", "gene"], coords={"cell": pheno_df_a1.index.values, "gene": pheno_df_a1.columns.values})
 y = y.sel(gene="gene_1")
@@ -67,14 +65,14 @@ W = ones((100,1))
 pr = cProfile.Profile()
 pr.enable()
 
-pv = run_association(y=y, G=GG, W=W, E=contexts_df_a1, hK=hK)[0]
+pv = run_association(y=y, G=GG, W=W, E=C.values[:,0:10], hK=hK)[0]
 
 pr.disable()
 s = io.StringIO()
 sortby = 'cumulative'
 ps = pstats.Stats(pr, stream=s).sort_stats(sortby)
 ps.print_stats()
-with open("a1.log", 'w') as f:
+with open("a1_new.log", 'w') as f:
     print(s.getvalue(), file=f)
 
 pv1 = pd.DataFrame({"sample":G_sel.sample.values,
