@@ -66,23 +66,19 @@ def is_correlated(variant, pruned_variants, threshold=0.2):
     return False
 
 def ld_prune(G, num_variants=100, variance_threshold=1e-5):
-    # Compute variances and convert them to a NumPy array
-    variances = np.var(G, axis=0).compute()
-
-    # Filter out columns based on variance threshold
-    valid_columns = variances > variance_threshold
-    G_filtered = G[:, valid_columns]
-
+    # Start with the first variant
     selected_indices = [0]
-    pruned_variants = [G_filtered[:, 0].values]
+    pruned_variants = [G[:, 0].values]
 
-    while len(selected_indices) < num_variants:
-        candidate_index = np.random.randint(G_filtered.shape[1])
-        candidate_variant = G_filtered[:, candidate_index].values
+    # Sequentially check each variant
+    for i in range(1, G.shape[1]):
+        if len(selected_indices) >= num_variants:
+            break
 
+        candidate_variant = G[:, i].values
         if not is_correlated(candidate_variant, pruned_variants):
             pruned_variants.append(candidate_variant)
-            selected_indices.append(candidate_index)
+            selected_indices.append(i)
 
     return selected_indices
 
@@ -105,5 +101,5 @@ s = io.StringIO()
 sortby = 'cumulative'
 ps = pstats.Stats(pr, stream=s).sort_stats(sortby)
 ps.print_stats()
-with open("one_gene_ld.log", 'w') as f:
-    print(s.getvalue(), file=f)
+
+print(s.getvalue())
