@@ -103,8 +103,8 @@ ps = pstats.Stats(pr, stream=s).sort_stats(sortby)
 ps.print_stats()
 
 # save profiling results to ld_100_inter_before.log
-with open("try.log", "w") as f:
+with open("ld_500_inter_after.log", "w") as f:
     f.write(s.getvalue())
 
 # save pv to 100_pv_inter_before.log up to 8 decimal places
-np.savetxt("pv_try.log", pv, fmt="%.8f")
+np.savetxt("500_pv_inter_after.log", pv, fmt="%.8f")

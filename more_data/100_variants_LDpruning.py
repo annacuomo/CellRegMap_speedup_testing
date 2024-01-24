@@ -102,4 +102,9 @@ sortby = 'cumulative'
 ps = pstats.Stats(pr, stream=s).sort_stats(sortby)
 ps.print_stats()
 
-print(s.getvalue())
+# save profiling results to ld_100_inter_before.log
+with open("try.log", "w") as f:
+    f.write(s.getvalue())
+
+# save pv to 100_pv_inter_before.log up to 8 decimal places
+np.savetxt("try_pv.log", pv, fmt="%.8f")
