@@ -1,0 +1,408 @@
+         102515 function calls (102453 primitive calls) in 0.192 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.192    0.192 /Users/yupeng/Desktop/Internship/Garvan/CellRegMap/cellregmap/_cellregmap.py:722(estimate_betas)
+        1    0.000    0.000    0.190    0.190 /Users/yupeng/Desktop/Internship/Garvan/CellRegMap/cellregmap/_cellregmap.py:145(predict_interaction)
+       11    0.000    0.000    0.182    0.017 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:259(fit)
+       11    0.000    0.000    0.180    0.016 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_function.py:66(_maximize_scalar)
+       11    0.000    0.000    0.180    0.016 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_function.py:23(_minimize_scalar)
+       11    0.000    0.000    0.169    0.015 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_optimize.py:11(minimize)
+      605    0.001    0.000    0.166    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_optimize.py:50(func)
+      605    0.001    0.000    0.166    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_function.py:45(func)
+      605    0.001    0.000    0.154    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:292(value)
+       11    0.002    0.000    0.086    0.008 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_brent.py:9(brent)
+       11    0.001    0.000    0.083    0.008 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_bracket.py:8(bracket)
+      616    0.002    0.000    0.076    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:540(_update_beta)
+     3083    0.053    0.000    0.056    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_b.py:69(dot)
+      619    0.001    0.000    0.049    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:324(lml)
+      618    0.001    0.000    0.043    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/_util/solve.py:54(rsolve)
+      618    0.004    0.000    0.041    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy_sugar/linalg/solve.py:140(rsolve)
+      618    0.025    0.000    0.033    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:2191(lstsq)
+     1235    0.005    0.000    0.032    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:580(_tXTBtX)
+      616    0.002    0.000    0.032    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:549(_update_scale)
+      616    0.004    0.000    0.029    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:533(_optimal_scale_using_optimal_beta)
+      619    0.003    0.000    0.027    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:478(_logdetH)
+     1232    0.004    0.000    0.025    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:576(_yTBtX)
+      619    0.003    0.000    0.020    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:489(_lml_optimal_scale)
+      619    0.006    0.000    0.015    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:561(_logdetD)
+      630    0.006    0.000    0.012    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:2037(slogdet)
+  704/693    0.002    0.000    0.011    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_types.py:108(__setattr__)
+      616    0.002    0.000    0.011    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:572(_yTBy)
+     1248    0.005    0.000    0.009    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:375(delta)
+      627    0.001    0.000    0.008    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_ndl.py:170(itemset)
+       11    0.000    0.000    0.008    0.001 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:666(__new__)
+      627    0.001    0.000    0.007    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_ndl.py:155(__notify)
+7002/6999    0.004    0.000    0.007    0.000 <frozen importlib._bootstrap>:1033(_handle_fromlist)
+       11    0.000    0.000    0.006    0.001 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:763(get_lock)
+        1    0.000    0.000    0.006    0.006 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:90(__init__)
+        1    0.000    0.000    0.006    0.006 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:116(create_mp_lock)
+        1    0.000    0.000    0.006    0.006 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/context.py:70(RLock)
+        1    0.000    0.000    0.006    0.006 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/synchronize.py:186(__init__)
+        1    0.000    0.000    0.006    0.006 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/synchronize.py:50(__init__)
+      627    0.001    0.000    0.005    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:459(_delta_update)
+     1271    0.002    0.000    0.004    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:159(_commonType)
+      620    0.000    0.000    0.004    0.000 {method 'sum' of 'numpy.ndarray' objects}
+       11    0.000    0.000    0.004    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:98(__init__)
+     11/3    0.000    0.000    0.004    0.001 <frozen importlib._bootstrap>:1002(_find_and_load)
+     11/3    0.000    0.000    0.004    0.001 <frozen importlib._bootstrap>:967(_find_and_load_unlocked)
+      620    0.000    0.000    0.004    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/_methods.py:47(_sum)
+        1    0.000    0.000    0.004    0.004 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/resource_tracker.py:145(register)
+        1    0.000    0.000    0.004    0.004 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/resource_tracker.py:153(_send)
+        1    0.000    0.000    0.004    0.004 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/resource_tracker.py:70(ensure_running)
+      618    0.004    0.000    0.004    0.000 {built-in method builtins.sum}
+      643    0.004    0.000    0.004    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+     11/3    0.000    0.000    0.004    0.001 <frozen importlib._bootstrap>:659(_load_unlocked)
+     10/3    0.000    0.000    0.003    0.001 <frozen importlib._bootstrap_external>:844(exec_module)
+        1    0.000    0.000    0.003    0.003 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/util.py:447(spawnv_passfds)
+        1    0.003    0.003    0.003    0.003 {built-in method _posixsubprocess.fork_exec}
+       23    0.000    0.000    0.003    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy_sugar/linalg/qs.py:39(economic_qs_linear)
+     13/3    0.000    0.000    0.003    0.001 <frozen importlib._bootstrap>:220(_call_with_frames_removed)
+     10/3    0.000    0.000    0.003    0.001 {built-in method builtins.exec}
+       23    0.000    0.000    0.003    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy_sugar/linalg/qs.py:74(_economic_qs_linear_noq1)
+       23    0.003    0.000    0.003    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:1499(svd)
+     1854    0.001    0.000    0.003    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:524(_df)
+     1260    0.002    0.000    0.002    0.000 {method 'astype' of 'numpy.generic' objects}
+        1    0.000    0.000    0.002    0.002 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/resource_tracker.py:18(<module>)
+        1    0.000    0.000    0.002    0.002 /Users/yupeng/Desktop/Internship/Garvan/CellRegMap/cellregmap/_cellregmap.py:71(__init__)
+       11    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap>:558(module_from_spec)
+     3160    0.001    0.000    0.001    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:153(_realType)
+       12    0.000    0.000    0.001    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy_sugar/linalg/svd.py:4(economic_svd)
+       11    0.000    0.000    0.001    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_types.py:26(__init__)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:1171(create_module)
+        1    0.001    0.001    0.001    0.001 {built-in method _imp.create_dynamic}
+       11    0.000    0.000    0.001    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/_util/_svd.py:19(__init__)
+     7125    0.001    0.000    0.001    0.000 {built-in method builtins.hasattr}
+     1259    0.001    0.000    0.001    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:135(_makearray)
+     1924    0.001    0.000    0.001    0.000 {method 'astype' of 'numpy.ndarray' objects}
+     3160    0.001    0.000    0.001    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:140(isComplexType)
+     1248    0.001    0.000    0.001    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_types.py:120(__getattr__)
+       11    0.000    0.000    0.001    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:953(__init__)
+       12    0.001    0.000    0.001    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/linalg/_decomp_svd.py:13(svd)
+      627    0.001    0.000    0.001    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/weakref.py:69(__call__)
+       11    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:901(_find_spec)
+     1854    0.001    0.000    0.001    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:310(nsamples)
+      634    0.001    0.000    0.001    0.000 {built-in method numpy.array}
+     7149    0.001    0.000    0.001    0.000 {built-in method builtins.isinstance}
+       10    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:916(get_code)
+       11    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1406(find_spec)
+       11    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1374(_get_spec)
+     1580    0.001    0.000    0.001    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.001    0.001 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/__init__.py:1(<module>)
+     3303    0.001    0.000    0.001    0.000 {built-in method numpy.asarray}
+       19    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1505(find_spec)
+     5050    0.001    0.000    0.001    0.000 {built-in method builtins.issubclass}
+     3727    0.001    0.000    0.001    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/_util/_svd.py:44(US)
+        1    0.000    0.000    0.001    0.001 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/__init__.py:1(<module>)
+     2661    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+      618    0.001    0.000    0.001    0.000 {method 'squeeze' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.001    0.001 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/_monitor.py:30(__init__)
+     1582    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       11    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_weakrefset.py:107(remove)
+       22    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+     3223    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+      630    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:209(_assert_stacked_square)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:124(__eq__)
+      641    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:130(get_linalg_error_extobj)
+       22    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:1154(_comparable)
+     1248    0.000    0.000    0.000    0.000 {built-in method math.exp}
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1036(get_data)
+       22    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:113(__exit__)
+       11    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/functools.py:949(__get__)
+       22    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:106(release)
+      653    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:203(_assert_stacked_2d)
+       22    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy_sugar/_array.py:50(is_all_finite)
+      275    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_bracket.py:134(_ensure_boundary)
+       50    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:135(_path_stat)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Desktop/Internship/Garvan/CellRegMap/cellregmap/_cellregmap.py:621(get_L_values)
+       50    0.000    0.000    0.000    0.000 {built-in method posix.stat}
+     1865    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/_util/_svd.py:58(rank)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:465(_logdetXX)
+       23    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/fromnumeric.py:2177(sum)
+     1405    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+       10    0.000    0.000    0.000    0.000 {built-in method io.open_code}
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:392(delta)
+       22    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:110(__enter__)
+      627    0.000    0.000    0.000    0.000 {function ndl.itemset at 0x13e1fd700}
+      627    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_b.py:59(set_variances)
+      676    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x10964ba38}
+     2222    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+     1282    0.000    0.000    0.000    0.000 {method '__array_prepare__' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.__import__}
+      618    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:197(_assert_2d)
+       23    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/fromnumeric.py:71(_wrapreduction)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:645(_compile_bytecode)
+       22    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:102(acquire)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:486(_init_module_attrs)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py:795(__init__)
+       10    0.000    0.000    0.000    0.000 {built-in method marshal.loads}
+       16    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy_sugar/linalg/dot.py:29(ddot)
+       12    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/linalg/lapack.py:979(_compute_lwork)
+       20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:361(cache_from_source)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_function.py:170(__init__)
+     1240    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:401(scale)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:212(__init__)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:682(_get_free_pos)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py:873(start)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_b.py:28(__init__)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_ndl.py:112(__new__)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Desktop/Internship/Garvan/CellRegMap/cellregmap/_cellregmap.py:173(<listcomp>)
+      103    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:121(_path_join)
+        2    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/signal.py:58(pthread_sigmask)
+       12    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/_lib/_util.py:194(_asarray_validated)
+      630    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:488(_unary_dispatcher)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py:556(wait)
+       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:385(cached)
+      605    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:1199(update)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1556(_fill_cache)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py:280(wait)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:491(_get_cached)
+       19    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:145(_path_is_mode_type)
+       17    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:154(_path_isfile)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_types.py:97(listen)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:685(<setcomp>)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:161(beta)
+        4    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_ndl.py:152(talk_to)
+      618    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:2187(_lstsq_dispatcher)
+       11    0.000    0.000    0.000    0.000 {method 'view' of 'numpy.ndarray' objects}
+       22    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_weakrefset.py:59(__iter__)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Desktop/Internship/Garvan/CellRegMap/cellregmap/_cellregmap.py:674(compute_maf)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_variables.py:22(select)
+        2    0.000    0.000    0.000    0.000 {built-in method posix.listdir}
+       12    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_weakrefset.py:82(add)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:156(__enter__)
+        4    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/signal.py:61(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/function_base.py:24(linspace)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_ndl.py:174(_create_callback)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_ndl.py:122(__array_finalize__)
+       22    0.000    0.000    0.000    0.000 {method 'acquire' of '_multiprocessing.SemLock' objects}
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_bracket.py:142(_initialize_interval)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_function.py:13(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/joblib/externals/loky/backend/__init__.py:7(_make_name)
+      275    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_bracket.py:130(_boundary_inside)
+       22    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1337(_path_importer_cache)
+      103    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:123(<listcomp>)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1077(path_stats)
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+        2    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/signal.py:25(_int_to_enum)
+       12    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/linalg/blas.py:384(getter)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/tempfile.py:145(__next__)
+       10    0.000    0.000    0.000    0.000 {method 'read' of '_io.BufferedReader' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1324(_path_hooks)
+        2    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py:521(__init__)
+       11    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/functools.py:392(__get__)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/util.py:186(__init__)
+       22    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_ndl.py:131(__setattr__)
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.__build_class__}
+       22    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_variables.py:29(names)
+       20    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:127(_path_split)
+        2    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/enum.py:358(__call__)
+      106    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:231(_verbose_message)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:166(_get_module_lock)
+       11    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/weakref.py:47(__new__)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Desktop/Internship/Garvan/CellRegMap/cellregmap/_cellregmap.py:632(<listcomp>)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:155(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_ndl.py:1(<module>)
+        2    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py:228(__init__)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1500(_get_spec)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/lib/nanfunctions.py:623(nansum)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Desktop/Internship/Garvan/CellRegMap/cellregmap/_cellregmap.py:135(<listcomp>)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_variables.py:60(merge_variables)
+       33    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:151(wrapper_setattr)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Desktop/Internship/Garvan/CellRegMap/cellregmap/_math.py:58(solve)
+       11    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_weakrefset.py:27(__exit__)
+       16    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/lib/function_base.py:873(copy)
+       22    0.000    0.000    0.000    0.000 {method 'release' of '_multiprocessing.SemLock' objects}
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/tempfile.py:134(rng)
+       12    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/linalg/lapack.py:1014(_check_work_float)
+       10    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1597(path_hook_for_FileFinder)
+       23    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+       34    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:160(__exit__)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:560(_classify_pyc)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:696(spec_from_file_location)
+        1    0.000    0.000    0.000    0.000 {built-in method _thread.start_new_thread}
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/shape_base.py:81(atleast_2d)
+      124    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/random.py:117(__init__)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:87(acquire)
+        2    0.000    0.000    0.000    0.000 <frozen zipimport>:63(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/shape_base.py:372(stack)
+       22    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/utils.py:186(disable_on_exception)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:112(release)
+       30    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:79(_unpack_uint32)
+       50    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/linalg/lapack.py:881(get_lapack_funcs)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/random.py:126(seed)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_types.py:41(bounds)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/spawn.py:11(<module>)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_function.py:225(_isfixed)
+       23    0.000    0.000    0.000    0.000 <string>:1(<lambda>)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/linalg/blas.py:326(_get_funcs)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:593(_validate_timestamp_pyc)
+       22    0.000    0.000    0.000    0.000 {built-in method numpy.zeros}
+      226    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Desktop/Internship/Garvan/CellRegMap/cellregmap/_math.py:47(__init__)
+       77    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/util.py:171(register_after_fork)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/tempfile.py:148(<listcomp>)
+        2    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/enum.py:670(__new__)
+       22    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:1158(__hash__)
+       10    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/_monitor.py:94(report)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:58(__init__)
+        1    0.000    0.000    0.000    0.000 {function Random.seed at 0x1092cfee0}
+        2    0.000    0.000    0.000    0.000 {built-in method _signal.pthread_sigmask}
+        8    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/random.py:343(choice)
+       27    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:398(parent)
+       40    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:129(<genexpr>)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1466(__init__)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py:1209(_make_invoke_excepthook)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/lib/nanfunctions.py:68(_replace_nan)
+       23    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+       26    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+       22    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_bracket.py:138(_tol)
+       12    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/ma/core.py:6485(isMaskedArray)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_variables.py:26(<listcomp>)
+       11    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_weakrefset.py:21(__enter__)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:185(cb)
+       12    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/sparse/_base.py:1461(issparse)
+       23    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/fromnumeric.py:72(<dictcomp>)
+       23    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:175(_path_isabs)
+       33    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:878(__exit__)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/weakref.py:162(__setitem__)
+       19    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:64(_relax_case)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:159(_path_isdir)
+       33    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:874(__enter__)
+        8    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/random.py:237(_randbelow_with_getrandbits)
+       23    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+       11    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_weakrefset.py:17(__init__)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:523(_check_name_wrapper)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py:1142(daemon)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py:282(_args_from_interpreter_flags)
+        3    0.000    0.000    0.000    0.000 {built-in method posix.close}
+        2    0.000    0.000    0.000    0.000 {built-in method posix.pipe}
+       23    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:235(v0)
+        7    0.000    0.000    0.000    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+       24    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+       11    0.000    0.000    0.000    0.000 {method 'ravel' of 'numpy.ndarray' objects}
+       55    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py:750(_newname)
+       55    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        2    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:431(mean)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:35(_new_module)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_optimize.py:1(<module>)
+       46    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+        6    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+       22    0.000    0.000    0.000    0.000 {built-in method _weakref.proxy}
+       12    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+       11    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/_weakrefset.py:53(_commit_removals)
+       22    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_types.py:37(bounds)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_bracket.py:1(<module>)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:351(__init__)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:811(find_spec)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/linalg/blas.py:259(find_best_blas_type)
+       20    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+       22    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_types.py:78(isfixed)
+        8    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+       30    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+       29    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1585(<setcomp>)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:736(find_spec)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/lmm/_lmm.py:247(v1)
+       23    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/fromnumeric.py:2172(_sum_dispatcher)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:1266(close)
+       24    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/multiarray.py:153(concatenate)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_bracket.py:143(<listcomp>)
+       11    0.000    0.000    0.000    0.000 {method 'difference' of 'set' objects}
+       20    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
+       12    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
+       22    0.000    0.000    0.000    0.000 {staticmethod object at 0x109fe9520}
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:152(__init__)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_bracket.py:119(_sort)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1006(__init__)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/optimix/_variables.py:27(<dictcomp>)
+       16    0.000    0.000    0.000    0.000 {built-in method numpy.asanyarray}
+       23    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+       12    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py:529(is_set)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/shape_base.py:362(_stack_dispatcher)
+       22    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+       16    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/lib/function_base.py:869(_copy_dispatcher)
+       32    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_bracket.py:126(_boundary_equal)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1179(exec_module)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_brent.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 {built-in method atexit.register}
+       23    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/linalg/linalg.py:1495(_svd_dispatcher)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py:271(_is_owned)
+        1    0.000    0.000    0.000    0.000 {built-in method posix.write}
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py:1338(current_thread)
+       12    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/scipy/linalg/_misc.py:181(_datacopied)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/os.py:804(fsencode)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/context.py:233(get_context)
+        2    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+       11    0.000    0.000    0.000    0.000 {built-in method _imp.is_frozen}
+       11    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'flatten' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py:256(__enter__)
+       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1472(<genexpr>)
+       10    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.arange}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/shape_base.py:23(atleast_1d)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/shape_base.py:455(<listcomp>)
+       11    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/shape_base.py:77(_atleast_2d_dispatcher)
+        3    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/resource_tracker.py:48(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1155(__init__)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/resource_tracker.py:46(ResourceTracker)
+       10    0.000    0.000    0.000    0.000 {method 'getrandbits' of '_random.Random' objects}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_ndl.py:33(ndl)
+        1    0.000    0.000    0.000    0.000 {method 'append' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/numeric.py:1855(isscalar)
+       11    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:406(has_location)
+        5    0.000    0.000    0.000    0.000 /Users/yupeng/Desktop/Internship/Garvan/CellRegMap/cellregmap/_cellregmap.py:87(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/weakref.py:345(__new__)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/shape_base.py:207(_arrays_for_stack_dispatcher)
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1031(get_filename)
+        1    0.000    0.000    0.000    0.000 {method 'fileno' of '_io.TextIOWrapper' objects}
+       10    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/shape_base.py:447(<setcomp>)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py:265(_release_save)
+        2    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+       10    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:841(create_module)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/weakref.py:350(__init__)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/synchronize.py:90(_make_methods)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py:268(_acquire_restore)
+        8    0.000    0.000    0.000    0.000 {method 'bit_length' of 'int' objects}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/shape_base.py:443(<listcomp>)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py:1127(daemon)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/fromnumeric.py:3176(ndim)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/tqdm/std.py:98(<listcomp>)
+        1    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method posix.getpid}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_ndl.py:6(float64)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/threading.py:259(__exit__)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/subprocess.py:272(_optim_args_from_interpreter_flags)
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.core._multiarray_umath.normalize_axis_index}
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/util.py:48(debug)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/glimix_core/_util/_svd.py:51(Vt)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/context.py:197(get_start_method)
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.exec_dynamic}
+        1    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/ndarray_listener/_testit.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/brent_search/_testit.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/lib/nanfunctions.py:618(_nansum_dispatcher)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/multiarray.py:1080(copyto)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/multiarray.py:669(result_type)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/fromnumeric.py:3172(_ndim_dispatcher)
+        1    0.000    0.000    0.000    0.000 /Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/multiprocessing/spawn.py:45(get_executable)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/function_base.py:19(_linspace_dispatcher)
+        1    0.000    0.000    0.000    0.000 /Users/yupeng/Library/Python/3.9/lib/python/site-packages/numpy/core/shape_base.py:19(_atleast_1d_dispatcher)
+        1    0.000    0.000    0.000    0.000 {method 'release' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _operator.index}
+
+
