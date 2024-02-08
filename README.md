@@ -11,7 +11,7 @@ This repository is for testing the speed-up of the CellRegMap package. Note: Thi
   * dependency 
 
 ## CellRegMap Installation
-* For orginal version: follow installation instructions from [the CellRegMap website](https://limix.github.io/CellRegMap/installation.html)
+* For original version: follow installation instructions from [the CellRegMap website](https://limix.github.io/CellRegMap/installation.html)
 * For the speed-up version: follow the installation instructions from (https://github.com/YPZ404/CellRegMap_Optimized)
 
 
@@ -23,7 +23,7 @@ Using python3 between 3.7 and 3.9 (3.9 is preferred)
 ```
 git clone https://github.com/annacuomo/CellRegMap_speedup_testing.git
 ```
-* The Profiling folder contains the simple cProfile scripts
-* The test_data folder contains the simulated data for testing and validation of any changes made to the original CellRegMap package
-* The basic1 folder is used for testing basic usage of CellRegMap with randon generated data
-* The more_data folder is used for testing larger scale simulated data
+* The [Profiling](./profiling) folder contains the simple cProfile scripts
+* The [test_data](./test_data) folder contains the simulated data for testing and validation of any changes made to the original CellRegMap package
+* The [basic1](./basic1) folder is used for testing basic usage of CellRegMap with randon generated data
+* The [more_data](./more_data) folder is used for testing larger scale simulated data
