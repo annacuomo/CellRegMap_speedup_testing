@@ -11,9 +11,7 @@ This repository is for testing the speed-up of the CellRegMap package. Note: Thi
   * dependency 
 
 ## CellRegMap Installation
-* For original version: follow installation instructions from [the CellRegMap website](https://limix.github.io/CellRegMap/installation.html)
-* For the speed-up version: follow the installation instructions from (https://github.com/YPZ404/CellRegMap_Optimized)
-
+* For both original & speed-up version: follow the installation instructions from [Here](https://github.com/YPZ404/CellRegMap_Optimized)
 
 ## Python Version
 Using python3 between 3.7 and 3.9 (3.9 is preferred)
